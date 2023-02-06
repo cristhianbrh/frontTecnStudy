@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.HomePage
+{
+    height: 100vh;
+    width: 100%;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Options */
+.HomePage>.options
+{
+    font-family: 'Inter', sans-serif;
+    background-color: #E3DCDC;
+    width: 163px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-top: 44px;
+}
+.HomePage>.options>div:hover{
+    font-weight: 500;
+}
+.HomePage>.options>div.__islayerActive{
+    font-weight: 600;
+}
+.HomePage>.options>div{
+    cursor: pointer;
+    
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    border-radius: 3px;
+    
+    margin: 0 5px;
+    padding: 3px 8px;
+
+    font-size: .9em;
+}
+.HomePage>.options>div svg{
+    height: 24px;
+    width: 24px;
+}
+
+/* Layer */
+.HomePage>.layer{
+    background-color: #fff;
+    flex: auto;
+}
+
+

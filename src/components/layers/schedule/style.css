@@ -1,0 +1,73 @@
+.SheduleLayer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.SheduleLayer_init {
+    flex: auto;
+    margin: 60px;
+    border-left: 1px solid #00A3FF;
+    border-right: 1px solid #00A3FF;
+}
+
+.SheduleLayer_init>div {
+    display: flex;
+}
+
+.SheduleLayer_init>div>div.sheduleDay {
+    /* width: 150px; */
+    width: 228px;
+    /* background-color: rgb(94, 166, 22); */
+    display: flex;
+    flex-direction: column;
+}
+
+.SheduleLayer_init>div>div.sheduleDay>p {
+    background-color: aqua;
+    width: 127px;
+    padding: 2px 12px;
+    border-radius: 3px;
+    background-color: rgba(252, 0, 0, 0.41);
+    text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+.SheduleLayer_init>div>div.sheduleDay>div.active {
+    margin: 2px 20px;
+    border-radius: 4px;
+    min-height: 70px;
+    border: 1px solid rgba(0, 0, 0, 0.66);
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content:space-between;
+    align-items: center;
+}
+.SheduleLayer_init>div>div.sheduleDay>div.active>p.active_Title {
+    font-size: 14px;
+    font-weight: 500;
+}
+.SheduleLayer_init>div>div.sheduleDay>div.active>p.active_Time {
+    font-size: 14px;
+    color: #000AFF;
+}
+.SheduleLayer_init>div>div.sheduleDay>div.dead{
+    margin: 2px 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: dotted 1px red;
+    border-right: dotted 1px red;
+    font-size: 14px;
+    color: rgba(111, 107, 107, 0.66);
+    /* height: 90px; */
+    /* Heigth variable */
+}

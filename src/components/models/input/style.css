@@ -1,0 +1,43 @@
+.InputModel {
+    position: relative;
+    border-bottom: 2px solid #000;
+    font-size: 1.1em;
+    height: 30px;   
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-top: 5px ;
+}
+.InputModel>span {
+    position: absolute;
+    left: 5px;
+    font-size: 1em;
+    transition: all .2s;
+    pointer-events: none;
+
+    color: #2e4e4e;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-shadow: 0px 0px 1px;
+}
+.InputModel>input {
+    border: none;
+    outline: none;
+
+    width: 100%;
+    font-size: 1em;
+    height: min-content;
+    padding-left: 5px;
+    height: min-content;
+    box-sizing: border-box;
+    text-shadow: 0px 0px 1.3px;
+    letter-spacing: 1px;
+}
+.InputModel>input:focus ~ span, 
+.InputModel>input:valid ~ span 
+{
+    font-size: 0.7em;
+    top: 0px;
+    left: 1px;
+    transition: all .2s;
+}

@@ -1,0 +1,56 @@
+.AddCourseComponent{
+    background-color: rgba(0, 0, 0, 0.63);
+    z-index: 1;
+    position: absolute;
+
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9375rem;
+}
+.AddCourseComponent>div{
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 16px 60px;
+}
+.AddCourseComponent div.AddCourseComponent_Content{
+    display: flex;
+    flex-direction: column;
+}
+.AddCourseComponent div.AddCourseComponent_Content>p{
+    text-align: center;
+}
+
+
+.AddCourseComponent div.AddCourseComponent_buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.AddCourseComponent div.AddCourseComponent_buttons>button{
+    color: #fff;
+    border: none;
+    padding: 7px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.AddCourseComponent div.AddCourseComponent_buttons>button:nth-child(1){
+    background-color: #6999F6;
+}
+.AddCourseComponent div.AddCourseComponent_buttons>button:nth-child(2){
+    background-color: #0052F0;
+}
+
+
+.AddCourseComponent .AddCourseComponent_Content .InputModel{
+    margin: 12px 0;
+}

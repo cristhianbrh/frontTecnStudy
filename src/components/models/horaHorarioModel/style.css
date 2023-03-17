@@ -1,0 +1,21 @@
+.HoraHorarioModel{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.HoraHorarioModel svg{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.HoraHorarioModel>div{
+    background-color: rgba(250, 255, 0, 0.47);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 5px;
+    text-align: center;
+    font-size: .8rem;
+}

@@ -1,3 +1,4 @@
+import CoursesLayer from "../../components/layers/courses/CoursesLayer";
 import ScheduleLayer from "./../../components/layers/schedule/ScheduleLayer";
 
 const layerOptions = [
@@ -7,9 +8,9 @@ const layerOptions = [
         layer: <ScheduleLayer/>
     },
     {
-        svg: <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 36 36"><path fill="currentColor" d="m33.48 29.63l-6.74-17.81a2 2 0 0 0-2.58-1.16L21 11.85V8.92A1.92 1.92 0 0 0 19.08 7H14V4.92A1.92 1.92 0 0 0 12.08 3H5a2 2 0 0 0-2 2v27a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V19.27l5 13.21a1 1 0 0 0 1.29.58l5.61-2.14a1 1 0 0 0 .58-1.29ZM12 8.83V31H5V5h7ZM19 31h-5V9h5Zm8.51-.25l-6.38-16.83l3.74-1.42l6.39 16.83Z" class="clr-i-outline clr-i-outline-path-1" /><path fill="none" d="M0 0h36v36H0z" /></svg>,
+        svg: <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 36 36"><path fill="currentColor" d="m33.48 29.63l-6.74-17.81a2 2 0 0 0-2.58-1.16L21 11.85V8.92A1.92 1.92 0 0 0 19.08 7H14V4.92A1.92 1.92 0 0 0 12.08 3H5a2 2 0 0 0-2 2v27a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V19.27l5 13.21a1 1 0 0 0 1.29.58l5.61-2.14a1 1 0 0 0 .58-1.29ZM12 8.83V31H5V5h7ZM19 31h-5V9h5Zm8.51-.25l-6.38-16.83l3.74-1.42l6.39 16.83Z" /><path fill="none" d="M0 0h36v36H0z" /></svg>,
         name: 'Cursos',
-        layer: <p>2</p>
+        layer: <CoursesLayer/>
     },
     {
         svg: <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M3 10c-.24 0-.45.09-.59.25c-.14.15-.2.37-.17.61l.5 2.99C2.82 14.5 3.4 15 4 15h3c.64 0 1.36-.56 1.5-1.18l1.06-3.19c.04-.13.01-.32-.06-.44c-.11-.12-.28-.19-.5-.19H3m4 7H4C2.38 17 .96 15.74.76 14.14l-.5-2.99C.15 10.3.39 9.5.91 8.92C1.43 8.34 2.19 8 3 8h6c.83 0 1.58.35 2.06.96c.11.15.21.31.29.49c.43-.09.87-.09 1.29 0c.08-.18.18-.34.3-.49C13.41 8.35 14.16 8 15 8h6c.81 0 1.57.34 2.09.92c.51.58.75 1.38.65 2.19l-.51 3.07C23.04 15.74 21.61 17 20 17h-3c-1.56 0-3.08-1.19-3.46-2.7l-.9-2.71c-.38-.28-.91-.28-1.29 0l-.92 2.78C10.07 15.82 8.56 17 7 17m8-7c-.22 0-.39.07-.5.19c-.08.12-.1.31-.05.51l1.01 3.05c.18.69.9 1.25 1.54 1.25h3c.59 0 1.18-.5 1.25-1.11l.51-3.07c.03-.2-.03-.42-.17-.57A.769.769 0 0 0 21 10h-6Z" /></svg>,

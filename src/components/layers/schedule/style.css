@@ -11,8 +11,17 @@
     margin: 60px;
     border-left: 1px solid #00A3FF;
     border-right: 1px solid #00A3FF;
+    width: 0;
+    overflow: auto;
 }
-
+.SheduleLayer_init::-webkit-scrollbar {
+    background-color: white;
+    height: 12px;
+}
+.SheduleLayer_init::-webkit-scrollbar-thumb {
+    background-color: #D9D9D9;
+    border-radius: 30px;
+}
 .SheduleLayer_init>div {
     display: flex;
 }

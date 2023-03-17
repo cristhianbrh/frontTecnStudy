@@ -1,0 +1,70 @@
+.CoursesLayer{
+    /* font-size: 1.; */ 
+    
+}
+.CoursesLayer>button{
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    
+    color: #fff;
+    background-color: #581212;
+    
+    border: none;
+    border-radius: 6px;
+    
+    margin: auto;
+    margin-top: 16px;
+    padding: 5px 7px;
+    
+    cursor: pointer;
+}
+.CoursesLayer>button>svg{
+    height: 30px;
+}
+.CoursesLayer>button:hover{
+    background-color: #691101;
+    transition: background-color .5s;
+}
+
+.CoursesLayer .CoursesLayer_Curso{
+    margin-left: 44px;
+}
+.CoursesLayer .CoursesLayer_Curso>p{
+    font-family: 'Aclonica', sans-serif;
+    font-size: 1.25rem;
+}
+.CoursesLayer .CoursesLayer_Curso>div{
+    margin-left: 50px;
+}
+.CoursesLayer .CoursesLayer_Curso>div>p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-top: 26px;
+}
+.CoursesLayer_Curso_Horario{
+    display: flex;
+    flex-direction: column;
+    
+    margin: 0 50px;
+}
+.CoursesLayer_Curso_Horario>button{
+    width: max-content;
+    margin: auto;
+    padding: 5px;
+    background-color: #3C1515;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+.CoursesLayer_Curso_Horario>div{
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+

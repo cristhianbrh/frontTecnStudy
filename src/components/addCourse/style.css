@@ -1,4 +1,4 @@
-.AddCourseComponent{
+.AddCourseComponent {
     background-color: rgba(0, 0, 0, 0.63);
     z-index: 1;
     position: absolute;
@@ -12,7 +12,12 @@
     justify-content: center;
     font-size: 0.9375rem;
 }
-.AddCourseComponent>div{
+
+.AddCourseComponent button {
+    cursor: pointer;
+}
+
+.AddCourseComponent>div {
     border-radius: 10px;
     background-color: #fff;
     display: flex;
@@ -21,36 +26,72 @@
     gap: 50px;
     padding: 16px 60px;
 }
-.AddCourseComponent div.AddCourseComponent_Content{
+
+.AddCourseComponent div.AddCourseComponent_Content {
     display: flex;
     flex-direction: column;
 }
-.AddCourseComponent div.AddCourseComponent_Content>p{
+
+.AddCourseComponent div.AddCourseComponent_Content>p {
     text-align: center;
 }
 
 
-.AddCourseComponent div.AddCourseComponent_buttons{
+.AddCourseComponent div.AddCourseComponent_buttons {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 }
-.AddCourseComponent div.AddCourseComponent_buttons>button{
+
+.AddCourseComponent div.AddCourseComponent_buttons>button {
     color: #fff;
     border: none;
     padding: 7px;
     border-radius: 3px;
-    cursor: pointer;
 }
-.AddCourseComponent div.AddCourseComponent_buttons>button:nth-child(1){
+
+.AddCourseComponent div.AddCourseComponent_buttons>button:nth-child(1) {
     background-color: #6999F6;
 }
-.AddCourseComponent div.AddCourseComponent_buttons>button:nth-child(2){
+
+.AddCourseComponent div.AddCourseComponent_buttons>button:nth-child(2) {
     background-color: #0052F0;
 }
 
 
-.AddCourseComponent .AddCourseComponent_Content .InputModel{
+.AddCourseComponent .AddCourseComponent_Content .InputModel {
     margin: 12px 0;
 }
+
+.AddCourseComponent .AddCourseComponent_Content>.AddCourseComponent_Content_Notes>div {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.AddCourseComponent .AddCourseComponent_Content>.AddCourseComponent_Content_Notes>div>button , 
+.AddCourseComponent .AddCourseComponent_Content>.AddCourseComponent_Content_Shedule>div>button{
+    background-color: #3C1515;
+    color: #fff;
+
+    height: 25px;
+
+    padding-left: 12px;
+    padding-right: 12px;
+
+    border: none;
+    border-radius: 2px;
+}
+
+.AddCourseComponent .AddCourseComponent_Content>.AddCourseComponent_Content_Shedule {
+    display: flex;
+    gap: 10px;
+}
+
+.AddCourseComponent .AddCourseComponent_Content>.AddCourseComponent_Content_Shedule>div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+

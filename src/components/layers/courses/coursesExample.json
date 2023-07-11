@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Comunicación",
+        "schedules":
+            [
+                {
+                    "tag": "Modelo",
+                    "day": 1,        
+                    "timeInit": "12:30",
+                    "timeEnd": "15:40"
+                },
+                {
+                    "tag": "Modelo",
+                    "day": 2,         
+                    "timeInit": "12:40",
+                    "timeEnd": "15:40"
+                },
+                {
+                    "tag": "Modelo",
+                    "day": 1,         
+                    "timeInit": "13:50",
+                    "timeEnd": "15:40"
+                },
+                {
+                    "tag": "Modelo",
+                    "day": 1,        
+                    "timeInit": "10:55",
+                    "timeEnd": "15:40"
+                }
+            ]
+    },
+    {
+        "name": "Mate",
+        "schedules":
+            [
+                {
+                    "tag": "Modelo",
+                    "day": 1,        
+                    "timeInit": "9:30",
+                    "timeEnd": "15:40"
+                },
+                {
+                    "tag": "Modelo",
+                    "day": 2,         
+                    "timeInit": "1:40",
+                    "timeEnd": "15:40"
+                },
+                {
+                    "tag": "Modelo",
+                    "day": 1,         
+                    "timeInit": "2:50",
+                    "timeEnd": "15:40"
+                },
+                {
+                    "tag": "Modelo",
+                    "day": 1,        
+                    "timeInit": "5:55",
+                    "timeEnd": "15:40"
+                }
+            ]
+    }
+]
